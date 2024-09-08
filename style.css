@@ -57,8 +57,35 @@ main {
     padding: 1rem;
 }
 
+.img-sec .img1{
+    height: 910px;
+}
+.img-sec .img2{
+    height: 910px;
+    width: 734px;
+}
+
+.img-sec .img3{
+    transform: rotate(-90deg);
+}
+
 section {
     margin-bottom: 2rem;
+}
+
+.center-text{
+    text-align: center;
+}
+ 
+#about h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about p{
+    padding: 0 90px;
+    text-align: center;
 }
 
 .card {
