@@ -8,6 +8,10 @@ body {
     background-color: #effff2;
 }
 
+.bold{
+    font-weight: 500;
+}
+
 header {
     background: #335346;
     color: #fff;
