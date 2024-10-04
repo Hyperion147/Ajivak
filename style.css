@@ -115,18 +115,14 @@ main {
 .slide .item:nth-child(4){
     left: calc(50% + 220px);
 }
-.slide .item:nth-child(5){
+.slide .item:nth-child(n + 5){
     left: calc(50% + 440px);
-}
-.slide .item:nth-child(n + 6){
-    left: calc(50% + 660px);
-    opacity: 0;
 }
 
 .item .content{
     position: absolute;
-    top: 50%;
-    left: 100px;
+    top: 83%;
+    left: 480px;
     width: 300px;
     text-align: left;
     color: black;
@@ -156,10 +152,15 @@ main {
 
 .content button{
     padding: 10px 20px;
-    border: none;
+    border: 1px solid rgb(66, 79, 67);
+    background-color: #7ff4c5;
+    font-weight: bolder;
+    color: #000000;
+    padding: 10px 40px;
+    border-radius: 10px;
     cursor: pointer;
     opacity: 0;
-    animation: animate 1s ease-in-out 0.6s 1 forwards;
+    animation: animate 0.5s ease-in-out 0.3s 1 forwards;
 }
 
 @keyframes animate{
@@ -179,7 +180,8 @@ main {
     width: 100%;
     text-align: center;
     position: relative;
-    bottom: 40px;
+    bottom: 160px;
+    left: 320px;
 }
 
 .button button{
@@ -188,14 +190,15 @@ main {
     border-radius: 15px;
     border: none;
     cursor: pointer;
-    margin: 0 5px;
+    margin: 0 2px;
+    padding: 0 10px;
     border: 1px solid black;
     transition: 0.3s;
 }
 
 .button button:hover{
-    background-color: #6f6d6d;
-    color: white;
+    background-color: #d4ffcb;
+    color: rgb(0, 0, 0);
 }
 
 section {
