@@ -101,9 +101,17 @@ section {
     cursor: pointer;
 }
 
-.details {
+.details, .det{
     display: none;
     background: #d3eec9;
+    border-left: 3px solid #333;
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
+
+.detEng{
+    display: none;
+    background: #b6e7f0;
     border-left: 3px solid #333;
     padding: 1rem;
     margin: 0.5rem 0;
