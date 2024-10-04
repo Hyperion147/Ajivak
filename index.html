@@ -6,13 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajivak.com</title>
 
-
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.min.css"
-        integrity="sha512-dTsohxprpcruDm4sjU92K0/Gf1nTKVVskNHLOGMqxmokBSkfOAyCzYSB6+5Z9UlDafFRpy5xLhvpkOImeFbX6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -29,13 +24,37 @@
     </header>
 
     <main>
+    
 
-        <div class="img-sec">
+        <div class="slider">
+            <div class="img-sec">
             <div><img class="img1 bgimg" src="./img/bgImg1.jpg" alt="img1"></div>
             <div><img class="img2 bgimg" src="./img/bgImg2.jpg" alt="img2"></div>
-            <div><img class="img4 bgimg" src="./img/bgImg4.jpg" alt="img4"></div>
+            <div><img class="img4 bgimg" src="./img/bgImg3.jpg" alt="img4"></div>
         </div>
 
+            <div class="books">
+                <div class="slide">
+                    <div class="item" style="background-image: url(https://www.vaniprakashan.com/uploads/product_image/dalit-chintan-ka-vikas.jpg);"><a href=""></a></div>
+
+                    <div class="item" style="background-image: url(books/book1.jpg);"><a target="_blank" href=""></a></div>
+
+                    <div class="item" style="background-image: url(https://www.vaniprakashan.com/uploads/product_image/dalit-chintan-ka-vikas.jpg);"><a target="_blank" href=""></a></div>
+
+                    <div class="item" style="background-image: url(https://www.vaniprakashan.com/uploads/product_image/chamar-ki-beti-roopa.jpg);"><a target="_blank" href=""></a></div>
+
+                    <div class="item" style="background-image: url(https://www.vaniprakashan.com/uploads/product_image/d5179226eb72e9bc7c3af088938f8de0.jpg);"><a target="_blank" href=""></a></div>
+
+                    <div class="item" style="background-image: url(https://www.vaniprakashan.com/uploads/product_image/dalit-chintan-ka-vikas.jpg);"><a target="_blank" href=""></a></div>
+                </div>
+            </div>
+
+            <div class="button">
+                <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        
         <section id="history">
             <h1  class="center-text">Historic Figures</h2>
             <div class="card center-text" onclick="showDetails('history1')">
@@ -139,7 +158,9 @@
 
 
 
+    <script src="jquery.min.js"></script>
     <script src="script.js"></script>
+
 </body>
 
 </html>
