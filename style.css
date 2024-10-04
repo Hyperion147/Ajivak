@@ -101,6 +101,10 @@ section {
     cursor: pointer;
 }
 
+.card img{
+    width: 200px;
+}
+
 .details, .det{
     display: none;
     background: #d3eec9;
